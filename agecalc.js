@@ -31,7 +31,7 @@ function calculateAge1(){
 		if (b<=t){
 			if ((bm===tm) && (bd==td)){
 				var totalDays = Math.floor(dy * 365.25 + dm * 30.55 + dd);
-				document.querySelector("#result1").innerHTML = "Happy Birthday! Your current age is found to be " + dy + " years " + dm + " months and " + dd + "  days and the number of days you lived are " + totalDays + " ! Bless you a long and happy life..";
+				document.querySelector("#result1").innerHTML = "Happy Birthday! Your current age is found to be " + dy + " years and the number of days you lived are " + totalDays + " ! Bless you a long and happy life..";
 			} else {
 				var totalDays = Math.floor(dy * 365.25 + dm * 30.55 + dd);
 				document.querySelector("#result1").innerHTML = "Your current age is found to be " + dy + " years " + dm + " months and " + dd + "  days and the number of days you lived are " + totalDays + " !";
@@ -41,6 +41,12 @@ function calculateAge1(){
 		}
 		
 	}
+	function resetResult1(){
+		document.querySelector("#bday").value = "";
+		
+		document.querySelector("#result1").innerHTML = "";
+	}
+ 
  
  function calculateAge2(){
 		var t  = new Date(document.querySelector("#day1").value),
