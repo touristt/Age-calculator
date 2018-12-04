@@ -45,15 +45,16 @@ body {               width:   100%;
 label{color: #1dbbf1; }	
  
 input[type=date]{
- background-color: #188eba;color:#3a1d1d; margin-top: 10px;
+ background-color: #188eba;color:#0c0c0c; margin-top: 10px;
+ border:2px solid #1dbbf1 ;padding-left: 10px
     }
 .button{   
-     background-color: white; 
-    color: black; 
+     background-color:#0c0c0c; 
+    color:#1dbbf1; 
     border: 2px solid #008CBA;
  padding: 8px 16px;
   font-size: 10px;
-    margin: 20px 10px;  }   
+    margin: 20px 10px;  }     
 .button:active {   background-color: #008CBA;
     color: white;}     
 p {color: white;font-size: 20px;padding-bottom: 20px;padding-top: 20px;}
